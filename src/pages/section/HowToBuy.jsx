@@ -32,15 +32,15 @@ const HowToBuy = () => {
           <img
             className=" w-[102px] h-[102px] overflow-hidden"
             alt=""
-            src="/frame4.svg"
+            src="/frame5.svg"
           />
           <div className=" font-jan-brady text-[20px] md:text-[30px]">
-            Create a Wallet
+            Get Some ETH
           </div>
           <div className=" md:text-xl font-inter text-lightslategray text-center md:inline-block md:w-[506px]">
-            Download metamask or your wallet of choice from the app store or
-            google play store for free. Desktop users, download the google
-            chrome extension by going to metamask.io.
+            Have ETH in your wallet to switch to $ELEPHANT. If you don’t have
+            any ETH, you can buy directly on metamask, transfer from another
+            wallet, or buy on another exchange and send it to your wallet.
           </div>
         </div>
         <div className=" w-[320px] md:w-[100%] md:h-[100%] p-5 m-2 grid place-items-center shadow-[0px_0px_12px_9px_rgba(157,_42,_255,_0.1)] rounded-3xl bg-darkslategray-200 box-border  border-[1.5px] border-solid border-deepskyblue    ">
@@ -51,12 +51,13 @@ const HowToBuy = () => {
             src="/frame4.svg"
           />
           <div className=" font-jan-brady text-[20px] md:text-[30px]">
-            Create a Wallet
+            Go to Uniswap
           </div>
           <div className=" md:text-xl font-inter text-lightslategray text-center md:inline-block md:w-[506px]">
-            Download metamask or your wallet of choice from the app store or
-            google play store for free. Desktop users, download the google
-            chrome extension by going to metamask.io.
+            Connect to Uniswap. Go to app.uniswap.org in google chrome or on the
+            browser inside your Metamask app. Connect your wallet. Paste the
+            $ELEPHANT token address into Uniswap, select Pepe, and confirm. When
+            Metamask prompts you for a wallet signature, sign.
           </div>
         </div>
         <div className=" w-[320px] md:w-[100%] md:h-[100%] p-5 m-2 grid place-items-center shadow-[0px_0px_12px_9px_rgba(157,_42,_255,_0.1)] rounded-3xl bg-darkslategray-200 box-border  border-[1.5px] border-solid border-deepskyblue    ">
@@ -67,12 +68,12 @@ const HowToBuy = () => {
             src="/frame4.svg"
           />
           <div className=" font-jan-brady text-[20px] md:text-[30px]">
-            Create a Wallet
+            Switch ETH for $ELEPHANT
           </div>
           <div className=" md:text-xl font-inter text-lightslategray text-center md:inline-block md:w-[506px]">
-            Download metamask or your wallet of choice from the app store or
-            google play store for free. Desktop users, download the google
-            chrome extension by going to metamask.io.
+            Switch ETH for $ELEPHANT. We have ZERO taxes so you don’t need to
+            worry about buying with a specific slippage, although you may need
+            to use slippage during times of market volatility.
           </div>
         </div>
       </div>

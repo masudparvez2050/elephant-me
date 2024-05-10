@@ -42,7 +42,7 @@ const About = () => {
         <div className="  uppercase text-transparent !bg-clip-text [background:linear-gradient(97.36deg,_#36a9f3,_#6256fe)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-[40px] md:text-[52px] font-jan-brady  mb-12 grid place-items-center">
           PARTNERS
         </div>
-        <div className=" grid grid-rows-2 xl:grid-cols-1 xl:grid-rows-1 grid-cols-2 xl:grid-flow-col gap-8 mb-10 ">
+        <div className=" grid grid-rows-2 xl:grid-cols-1 xl:grid-rows-1 grid-cols-2 xl:grid-flow-col md:grid-cols-3 md:grid-rows-2 gap-8 mb-10 ">
           <div className="relative bg-darkslategray-100 box-border w-[144.9px] h-[133px] border-[2.4px]  rounded-[7.83px] border-solid border-deepskyblue  grid place-items-center">
             <img
               className=" w-[60%]  object-cover "
@@ -59,14 +59,14 @@ const About = () => {
           </div>{" "}
           <div className="relative bg-darkslategray-100 box-border w-[144.9px] h-[133px] border-[2.4px]  rounded-[7.83px] border-solid border-deepskyblue  grid place-items-center">
             <img
-              className=" w-[60%]  object-cover "
+              className=" w-[80%]  object-cover "
               alt=""
               src="/okxdex4768x515-1@2x.png"
             />
           </div>{" "}
           <div className="relative bg-darkslategray-100 box-border w-[144.9px] h-[133px] border-[2.4px]  rounded-[7.83px] border-solid border-deepskyblue  grid place-items-center">
             <img
-              className=" w-[60%]  object-cover "
+              className=" w-[80%]  object-cover "
               alt=""
               src="/lbank768x538-1@2x.png"
             />
@@ -80,7 +80,7 @@ const About = () => {
           </div>
           <div className="relative bg-darkslategray-100 box-border w-[144.9px] h-[133px] border-[2.4px]  rounded-[7.83px] border-solid border-deepskyblue  grid place-items-center">
             <img
-              className=" w-[60%]  object-cover "
+              className=" w-[80%]  object-cover "
               alt=""
               src="/jup-1@2x.png"
             />

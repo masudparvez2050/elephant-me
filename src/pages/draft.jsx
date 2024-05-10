@@ -294,403 +294,403 @@ const Index = () => {
         </div>
 
         {/* ------------------------------ */}
-        {/* <div className="absolute top-[3141px] left-[0px] bg-gray-100 w-full h-[1024px] overflow-hidden">
-            <img
-              className="absolute top-[-865px] left-[-357px] w-[2508px] h-[2508px] object-cover hidden opacity-[0.09]"
-              alt=""
-              src="/untitled-2-1@2x.png"
-            />
-            <img
-              className="absolute top-[96.8px] left-[-238.8px] w-[1917.8px] h-[829.8px] object-cover opacity-[0.1]"
-              alt=""
-              src="/group-177@2x.png"
-            />
-            <div className="absolute top-[-2px] left-[calc(50%_-_501px)] [filter:blur(231px)] rounded-[50%] [background:linear-gradient(144.46deg,_rgba(55,_167,_244,_0.15),_rgba(88,_106,_252,_0.15))] w-[1002px] h-[1002px]" />
-            <img
-              className="absolute top-[252px] left-[120px] w-[1200.2px] h-[519.3px] object-cover"
-              alt=""
-              src="/group-1771@2x.png"
-            />
-            <img
-              className="absolute top-[915px] left-[688px] w-[63.1px] h-[12.5px]"
-              alt=""
-              src="/group-12.svg"
-            />
-            <div className="absolute top-[97px] left-[calc(50%_-_201px)] w-[403px] h-[125px]">
-              <div className="absolute top-[24px] left-[calc(50%_-_201.5px)] tracking-[0.03em] leading-[77.78px] uppercase text-transparent !bg-clip-text [background:linear-gradient(97.36deg,_#36a9f3,_#6256fe)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-                Elephant
-              </div>
-              <div className="absolute top-[0px] left-[calc(50%_+_67.5px)] tracking-[0.03em] leading-[125px] uppercase">
-                Meme
-              </div>
-            </div>
-          </div>
-  
-          <div className="absolute top-[4141px] left-[0px] bg-gray-100 w-full h-[2568px] overflow-hidden text-center text-17xl font-inter">
-            <img
-              className="absolute top-[-865px] left-[-357px] w-[2508px] h-[2508px] object-cover opacity-[0.09]"
-              alt=""
-              src="/untitled-2-1@2x.png"
-            />
-            <img
-              className="absolute top-[1264px] left-[0px] w-[976px] h-[835px] object-cover opacity-[0.1]"
-              alt=""
-              src="/group-171@2x.png"
-            />
-            <div className="absolute top-[80px] left-[calc(50%_-_600px)] w-[1200px] h-[1015px] text-33xl text-lightslategray">
-              <div className="absolute top-[0px] left-[calc(50%_-_164px)] tracking-[0.03em] leading-[77.78px] uppercase font-jan-brady text-transparent !bg-clip-text [background:linear-gradient(97.36deg,_#36a9f3,_#6256fe)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-left">
-                Tokenomics
-              </div>
-              <div className="absolute top-[863px] left-[0px] w-[1200px] h-[152px] text-xl">
-                <div className="absolute top-[0px] left-[0px] shadow-[0px_0px_12px_9px_rgba(157,_42,_255,_0.1)] rounded-3xl bg-darkslategray-200 box-border w-[1201.5px] h-[153.5px] border-[1.5px] border-solid border-deepskyblue" />
-                <div className="absolute top-[28px] left-[42px] w-[1115px] h-24">
-                  <div className="absolute top-[0px] left-[371px] w-[744px] h-24">
-                    <div className="absolute top-[0px] left-[0px] rounded-2xl bg-darkslategray-100 w-[744px] h-24" />
-                    <div className="absolute top-[27px] left-[55px] w-[634px] h-[42px]">
-                      <img
-                        className="absolute top-[0px] left-[592px] w-[42px] h-[42px] overflow-hidden"
-                        alt=""
-                        src="/frame.svg"
-                      />
-                      <div className="absolute top-[9px] left-[calc(50%_-_317px)] uppercase">
-                        FLrgwxXaX8q8ECF18weDf3PLAYorXST5orpY34d8jfbm
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute top-[12px] left-[calc(50%_-_557.5px)] w-[228px] h-[78px] text-left text-9xl text-white font-jan-brady">
-                    <div className="absolute top-[0px] left-[calc(50%_-_114px)] tracking-[0.03em] leading-[77.78px] uppercase">
-                      Token Address
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="absolute top-[127.3px] left-[-0.7px] shadow-[0px_0px_12px_9px_rgba(157,_42,_255,_0.1)] rounded-lg bg-darkslategray-200 box-border w-[1201.5px] h-[656.5px] border-[1.5px] border-solid border-deepskyblue" />
-              <div className="absolute top-[176px] left-[64px] w-[1072px] h-[559px] text-7xl text-white">
-                <div className="absolute top-[0px] left-[1px] w-[1071px] h-[118px]">
-                  <div className="absolute top-[0px] left-[0px] rounded-2xl bg-darkslategray-100 w-[587px] h-[117px]" />
-                  <div className="absolute top-[1px] left-[610px] rounded-2xl bg-darkslategray-100 w-[461px] h-[117px]" />
-                  <div className="absolute top-[37px] left-[calc(50%_-_490.5px)] w-[498px] h-11">
-                    <div className="absolute top-[4px] left-[calc(50%_+_49px)] uppercase">
-                      1, 000, 000, 000
-                    </div>
-                    <div className="absolute top-[0px] left-[calc(50%_-_249px)] w-[222px] h-11 text-left text-9xl font-jan-brady">
-                      <div className="absolute top-[0px] left-[calc(50%_-_111px)] tracking-[0.03em] uppercase">
-                        Total Supply:
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute top-[38px] left-[calc(50%_+_204.5px)] w-[202px] h-11 text-left text-9xl font-jan-brady">
-                    <div className="absolute top-[0px] left-[calc(50%_-_101px)] tracking-[0.03em] uppercase">
-                      No blacklist
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute top-[442px] left-[1px] w-[1071px] h-[117px] text-left text-9xl font-jan-brady">
-                  <div className="absolute top-[0px] left-[0px] rounded-2xl bg-darkslategray-100 w-[1071px] h-[117px]" />
-                  <div className="absolute top-[37px] left-[calc(50%_-_313.5px)] w-[628px] h-11">
-                    <div className="absolute top-[0px] left-[calc(50%_-_314px)] tracking-[0.03em] uppercase">
-                      Put total supply into initial liquidity
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute top-[295px] left-[1px] w-[1071px] h-[117px]">
-                  <div className="absolute top-[0px] left-[0px] rounded-2xl bg-darkslategray-100 w-[587px] h-[117px]" />
-                  <div className="absolute top-[0px] left-[610px] rounded-2xl bg-darkslategray-100 w-[461px] h-[117px]" />
-                  <div className="absolute top-[37px] left-[calc(50%_+_119.5px)] w-[371px] h-11">
-                    <div className="absolute top-[6px] left-[calc(50%_+_69.5px)]">
-                      <span className="uppercase">{`2 `}</span>months
-                    </div>
-                    <div className="absolute top-[0px] left-[calc(50%_-_185.5px)] w-[124px] h-11 text-left text-9xl font-jan-brady">
-                      <div className="absolute top-[0px] left-[calc(50%_-_62px)] tracking-[0.03em] uppercase">
-                        LP Lock:
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute top-[35px] left-[calc(50%_-_487.5px)] w-[491px] h-[46px] text-left text-9xl font-jan-brady">
-                    <div className="absolute top-[2px] left-[calc(50%_-_245.5px)] w-[166px] h-11">
-                      <div className="absolute top-[0px] left-[calc(50%_-_83px)] tracking-[0.03em] uppercase">
-                        Ownership:
-                      </div>
-                    </div>
-                    <div className="absolute top-[0px] left-[calc(50%_+_99.5px)] text-7xl font-inter text-center">
-                      Renounced
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute top-[148px] left-[0px] w-[1072px] h-[117px] text-3xl">
-                  <div className="absolute top-[0px] left-[0px] rounded-2xl bg-darkslategray-100 w-[588px] h-[117px]" />
-                  <div className="absolute top-[0px] left-[611px] rounded-2xl bg-darkslategray-100 w-[461px] h-[117px]" />
-                  <div className="absolute top-[41px] left-[calc(50%_+_120px)] w-[371px] h-11">
-                    <div className="absolute top-[3px] left-[calc(50%_+_156.5px)] uppercase">
-                      v2
-                    </div>
-                    <div className="absolute top-[0px] left-[calc(50%_-_185.5px)] w-[271px] h-11 text-left text-9xl font-jan-brady">
-                      <div className="absolute top-[0px] left-[calc(50%_-_135.5px)] tracking-[0.03em] uppercase">
-                        Pool on Uniswap:
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute top-[20px] left-[calc(50%_-_489px)] w-[494px] h-[78px] text-left text-9xl font-jan-brady">
-                    <div className="absolute top-[0px] left-[calc(50%_-_247px)] w-[248px] h-[78px]">
-                      <div className="absolute top-[0px] left-[calc(50%_-_124px)] w-[248px] h-[78px]">
-                        <div className="absolute top-[0px] left-[calc(50%_-_124px)] w-[248px] h-[78px]">
-                          <div className="absolute top-[0px] left-[calc(50%_-_124px)] tracking-[0.03em] leading-[77.78px] uppercase">
-                            Inital liquidity:
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="absolute top-[19px] left-[calc(50%_+_44px)] text-7xl uppercase font-inter text-center">
-                      10,000.0000000
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="absolute top-[1232px] left-[calc(50%_-_618px)] w-[1234px] h-[679.2px] text-left text-33xl font-jan-brady">
-              <div className="absolute top-[24px] left-[calc(50%_-_260px)] tracking-[0.03em] leading-[77.78px] uppercase text-transparent !bg-clip-text [background:linear-gradient(97.36deg,_#36a9f3,_#6256fe)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-                Elephant
-              </div>
-              <div className="absolute top-[0px] left-[calc(50%_+_9px)] tracking-[0.03em] leading-[125px] uppercase">
-                Roadmap
-              </div>
-              <div className="absolute top-[190px] left-[0px] w-[1234px] h-[489.2px] text-xl font-inter">
-                <div className="absolute top-[0px] left-[0px] w-[1234px] h-[489.2px] overflow-hidden">
-                  <div className="absolute h-[96.1%] w-[68.06%] top-[1.94%] right-[16.21%] bottom-[1.96%] left-[15.74%]">
-                    <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] opacity-[0.7]">
-                      <div className="absolute h-[5.64%] w-full top-[0%] right-[0%] bottom-[94.36%] left-[0%]">
-                        <img
-                          className="absolute h-full w-[25.18%] top-[0%] right-[74.82%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
-                          alt=""
-                          src="/group1.svg"
-                        />
-                        <img
-                          className="absolute h-full w-[25.18%] top-[0%] right-[37.47%] bottom-[0%] left-[37.34%] max-w-full overflow-hidden max-h-full"
-                          alt=""
-                          src="/group2.svg"
-                        />
-                        <img
-                          className="absolute h-full w-[25.18%] top-[0%] right-[0%] bottom-[0%] left-[74.82%] max-w-full overflow-hidden max-h-full"
-                          alt=""
-                          src="/group3.svg"
-                        />
-                      </div>
-                      <div className="absolute h-[5.64%] w-full top-[94.38%] right-[0%] bottom-[-0.02%] left-[0%]">
-                        <img
-                          className="absolute h-full w-[25.18%] top-[0%] right-[74.82%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
-                          alt=""
-                          src="/group4.svg"
-                        />
-                        <img
-                          className="absolute h-full w-[25.18%] top-[0%] right-[37.47%] bottom-[0%] left-[37.34%] max-w-full overflow-hidden max-h-full"
-                          alt=""
-                          src="/group5.svg"
-                        />
-                        <img
-                          className="absolute h-full w-[25.18%] top-[0%] right-[0%] bottom-[0%] left-[74.82%] max-w-full overflow-hidden max-h-full"
-                          alt=""
-                          src="/group6.svg"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute h-full w-[20.89%] top-[0%] right-[77.97%] bottom-[0%] left-[1.13%]">
-                    <img
-                      className="absolute h-full w-[8.07%] top-[0%] right-[45.97%] bottom-[0%] left-[45.97%] max-w-full overflow-hidden max-h-full"
-                      alt=""
-                      src="/group7.svg"
-                    />
-                    <img
-                      className="absolute h-[70.26%] w-full top-[16.25%] right-[0%] bottom-[13.49%] left-[0%] max-w-full overflow-hidden max-h-full"
-                      alt=""
-                      src="/vector.svg"
-                    />
-                    <img
-                      className="absolute h-[25.45%] w-[64.24%] top-[10.43%] right-[17.88%] bottom-[64.13%] left-[17.88%] max-w-full overflow-hidden max-h-full"
-                      alt=""
-                      src="/group8.svg"
-                    />
-                    <img
-                      className="absolute h-[0.94%] w-full top-[83.57%] right-[-0.04%] bottom-[15.49%] left-[0.04%] max-w-full overflow-hidden max-h-full"
-                      alt=""
-                      src="/vector1.svg"
-                    />
-                    <div className="absolute top-[44.15%] left-[8px] inline-block w-[242px]">
-                      <p className="m-0">1,000 HOLDERS</p>
-                      <p className="m-0">1,000 Telegram Members</p>
-                      <p className="m-0">100K Volume/24h</p>
-                      <p className="m-0">Coingecko Listing</p>
-                      <p className="m-0">CMC Listing</p>
-                      <p className="m-0">BuyBack with 50K usd</p>
-                    </div>
-                  </div>
-                  <img
-                    className="absolute h-full w-[20.89%] top-[0%] right-[52.61%] bottom-[0%] left-[26.5%] max-w-full overflow-hidden max-h-full"
-                    alt=""
-                    src="/group-163.svg"
-                  />
-                  <div className="absolute h-full w-[20.89%] top-[0%] right-[27.24%] bottom-[0%] left-[51.86%]">
-                    <img
-                      className="absolute h-full w-[8.07%] top-[0%] right-[45.97%] bottom-[0%] left-[45.97%] max-w-full overflow-hidden max-h-full"
-                      alt=""
-                      src="/group9.svg"
-                    />
-                    <img
-                      className="absolute h-[70.26%] w-full top-[16.25%] right-[0%] bottom-[13.49%] left-[0%] max-w-full overflow-hidden max-h-full"
-                      alt=""
-                      src="/vector2.svg"
-                    />
-                    <img
-                      className="absolute h-[25.41%] w-[64.24%] top-[10.47%] right-[17.88%] bottom-[64.13%] left-[17.88%] max-w-full overflow-hidden max-h-full"
-                      alt=""
-                      src="/group10.svg"
-                    />
-                    <img
-                      className="absolute h-[0.94%] w-full top-[83.57%] right-[0%] bottom-[15.49%] left-[0%] max-w-full overflow-hidden max-h-full"
-                      alt=""
-                      src="/vector3.svg"
-                    />
-                    <div className="absolute w-[94.65%] top-[44.15%] left-[2.72%] inline-block">
-                      <p className="m-0">5,000+ HOLDERS</p>
-                      <p className="m-0">2,000 Telegram Members</p>
-                      <p className="m-0">Partnerships</p>
-                      <p className="m-0">1B Marketcap</p>
-                      <p className="m-0">Launch Elephant ERC404</p>
-                      <p className="m-0">Huge BuyBack</p>
-                    </div>
-                  </div>
-                  <div className="absolute h-full w-[20.89%] top-[0%] right-[1.88%] bottom-[0%] left-[77.23%] text-center text-[32px]">
-                    <img
-                      className="absolute h-full w-[8.07%] top-[0%] right-[45.97%] bottom-[0%] left-[45.97%] max-w-full overflow-hidden max-h-full"
-                      alt=""
-                      src="/group9.svg"
-                    />
-                    <img
-                      className="absolute h-[70.26%] w-full top-[16.15%] right-[0%] bottom-[13.59%] left-[0%] max-w-full overflow-hidden max-h-full"
-                      alt=""
-                      src="/vector4.svg"
-                    />
-                    <img
-                      className="absolute h-[25.27%] w-[64.24%] top-[10.61%] right-[17.88%] bottom-[64.13%] left-[17.88%] max-w-full overflow-hidden max-h-full"
-                      alt=""
-                      src="/group11.svg"
-                    />
-                    <img
-                      className="absolute h-[0.94%] w-full top-[83.57%] right-[0%] bottom-[15.49%] left-[0%] max-w-full overflow-hidden max-h-full"
-                      alt=""
-                      src="/vector3.svg"
-                    />
-                    <div className="absolute w-[79.13%] top-[44.15%] left-[10.47%] font-semibold inline-block">
-                      To The Moon
-                    </div>
-                  </div>
-                  <div className="absolute top-[216px] left-[339px]">
-                    <p className="m-0">2,000 HOLDERS</p>
-                    <p className="m-0">1,500 Telegram Members</p>
-                    <p className="m-0">1M liquidity</p>
-                    <p className="m-0">1M Volume/24h</p>
-                    <p className="m-0">BuyBack with 100K usd</p>
-                    <p className="m-0">CEX Listin</p>
-                  </div>
-                  <img
-                    className="absolute top-[240px] left-[771px] w-[463.3px] h-[447.4px] overflow-hidden"
-                    alt=""
-                    src="/frame1.svg"
-                  />
-                </div>
-              </div>
-            </div>
-            <b className="absolute top-[57.9%] left-[12.78%]">
-              <p className="m-0">PHASE</p>
-              <p className="m-0">1</p>
-            </b>
-            <b className="absolute top-[57.9%] left-[34.44%]">
-              <p className="m-0">PHASE</p>
-              <p className="m-0">2</p>
-            </b>
-            <b className="absolute top-[57.9%] left-[56.18%]">
-              <p className="m-0">PHASE</p>
-              <p className="m-0">3</p>
-            </b>
-            <b className="absolute top-[57.9%] left-[78.06%]">
-              <p className="m-0">PHASE</p>
-              <p className="m-0">4</p>
-            </b>
-            <div className="absolute top-[1258px] left-[calc(50%_-_1119px)] [filter:blur(244px)] rounded-[50%] [background:linear-gradient(144.46deg,_rgba(55,_167,_244,_0.18),_rgba(88,_106,_252,_0.18))] w-[954px] h-[963px]" />
-            <div className="absolute top-[2512px] left-[calc(50%_-_286px)] text-xl uppercase">
-              Copyright © 2024 ElephantME. All Rights Reserved.
-            </div>
-            <div className="absolute top-[calc(50%_-_1287px)] left-[calc(50%_+_273px)] [filter:blur(231px)] rounded-[50%] [background:linear-gradient(144.46deg,_rgba(55,_167,_244,_0.18),_rgba(88,_106,_252,_0.18))] w-[1002px] h-[1002px]" />
-          </div>
-  
+        <div className="absolute top-[3141px] left-[0px] bg-gray-100 w-full h-[1024px] overflow-hidden">
           <img
-            className="absolute top-[4254px] left-[-357px] w-[2508px] h-[2508px] object-cover hidden opacity-[0.09]"
+            className="absolute top-[-865px] left-[-357px] w-[2508px] h-[2508px] object-cover hidden opacity-[0.09]"
             alt=""
             src="/untitled-2-1@2x.png"
           />
-  
-          <div className="absolute top-[6093px] left-[1180px] w-[42px] h-[42px]">
-            <div className="absolute top-[0px] left-[0px] w-[42px] h-[42px]">
-              <div className="absolute top-[0px] left-[0px] w-[42px] h-[42px]">
-                <div className="absolute top-[0px] left-[0px] w-[42px] h-[42px]">
-                  <div className="absolute top-[0px] left-[0px] w-[42px] h-[42px] overflow-hidden" />
+          <img
+            className="absolute top-[96.8px] left-[-238.8px] w-[1917.8px] h-[829.8px] object-cover opacity-[0.1]"
+            alt=""
+            src="/group-177@2x.png"
+          />
+          <div className="absolute top-[-2px] left-[calc(50%_-_501px)] [filter:blur(231px)] rounded-[50%] [background:linear-gradient(144.46deg,_rgba(55,_167,_244,_0.15),_rgba(88,_106,_252,_0.15))] w-[1002px] h-[1002px]" />
+          <img
+            className="absolute top-[252px] left-[120px] w-[1200.2px] h-[519.3px] object-cover"
+            alt=""
+            src="/group-1771@2x.png"
+          />
+          <img
+            className="absolute top-[915px] left-[688px] w-[63.1px] h-[12.5px]"
+            alt=""
+            src="/group-12.svg"
+          />
+          <div className="absolute top-[97px] left-[calc(50%_-_201px)] w-[403px] h-[125px]">
+            <div className="absolute top-[24px] left-[calc(50%_-_201.5px)] tracking-[0.03em] leading-[77.78px] uppercase text-transparent !bg-clip-text [background:linear-gradient(97.36deg,_#36a9f3,_#6256fe)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+              Elephant
+            </div>
+            <div className="absolute top-[0px] left-[calc(50%_+_67.5px)] tracking-[0.03em] leading-[125px] uppercase">
+              Meme
+            </div>
+          </div>
+        </div>
+
+        <div className="absolute top-[4141px] left-[0px] bg-gray-100 w-full h-[2568px] overflow-hidden text-center text-17xl font-inter">
+          <img
+            className="absolute top-[-865px] left-[-357px] w-[2508px] h-[2508px] object-cover opacity-[0.09]"
+            alt=""
+            src="/untitled-2-1@2x.png"
+          />
+          <img
+            className="absolute top-[1264px] left-[0px] w-[976px] h-[835px] object-cover opacity-[0.1]"
+            alt=""
+            src="/group-171@2x.png"
+          />
+          <div className="absolute top-[80px] left-[calc(50%_-_600px)] w-[1200px] h-[1015px] text-33xl text-lightslategray">
+            <div className="absolute top-[0px] left-[calc(50%_-_164px)] tracking-[0.03em] leading-[77.78px] uppercase font-jan-brady text-transparent !bg-clip-text [background:linear-gradient(97.36deg,_#36a9f3,_#6256fe)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-left">
+              Tokenomics
+            </div>
+            <div className="absolute top-[863px] left-[0px] w-[1200px] h-[152px] text-xl">
+              <div className="absolute top-[0px] left-[0px] shadow-[0px_0px_12px_9px_rgba(157,_42,_255,_0.1)] rounded-3xl bg-darkslategray-200 box-border w-[1201.5px] h-[153.5px] border-[1.5px] border-solid border-deepskyblue" />
+              <div className="absolute top-[28px] left-[42px] w-[1115px] h-24">
+                <div className="absolute top-[0px] left-[371px] w-[744px] h-24">
+                  <div className="absolute top-[0px] left-[0px] rounded-2xl bg-darkslategray-100 w-[744px] h-24" />
+                  <div className="absolute top-[27px] left-[55px] w-[634px] h-[42px]">
+                    <img
+                      className="absolute top-[0px] left-[592px] w-[42px] h-[42px] overflow-hidden"
+                      alt=""
+                      src="/frame.svg"
+                    />
+                    <div className="absolute top-[9px] left-[calc(50%_-_317px)] uppercase">
+                      FLrgwxXaX8q8ECF18weDf3PLAYorXST5orpY34d8jfbm
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute top-[12px] left-[calc(50%_-_557.5px)] w-[228px] h-[78px] text-left text-9xl text-white font-jan-brady">
+                  <div className="absolute top-[0px] left-[calc(50%_-_114px)] tracking-[0.03em] leading-[77.78px] uppercase">
+                    Token Address
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute top-[127.3px] left-[-0.7px] shadow-[0px_0px_12px_9px_rgba(157,_42,_255,_0.1)] rounded-lg bg-darkslategray-200 box-border w-[1201.5px] h-[656.5px] border-[1.5px] border-solid border-deepskyblue" />
+            <div className="absolute top-[176px] left-[64px] w-[1072px] h-[559px] text-7xl text-white">
+              <div className="absolute top-[0px] left-[1px] w-[1071px] h-[118px]">
+                <div className="absolute top-[0px] left-[0px] rounded-2xl bg-darkslategray-100 w-[587px] h-[117px]" />
+                <div className="absolute top-[1px] left-[610px] rounded-2xl bg-darkslategray-100 w-[461px] h-[117px]" />
+                <div className="absolute top-[37px] left-[calc(50%_-_490.5px)] w-[498px] h-11">
+                  <div className="absolute top-[4px] left-[calc(50%_+_49px)] uppercase">
+                    1, 000, 000, 000
+                  </div>
+                  <div className="absolute top-[0px] left-[calc(50%_-_249px)] w-[222px] h-11 text-left text-9xl font-jan-brady">
+                    <div className="absolute top-[0px] left-[calc(50%_-_111px)] tracking-[0.03em] uppercase">
+                      Total Supply:
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute top-[38px] left-[calc(50%_+_204.5px)] w-[202px] h-11 text-left text-9xl font-jan-brady">
+                  <div className="absolute top-[0px] left-[calc(50%_-_101px)] tracking-[0.03em] uppercase">
+                    No blacklist
+                  </div>
+                </div>
+              </div>
+              <div className="absolute top-[442px] left-[1px] w-[1071px] h-[117px] text-left text-9xl font-jan-brady">
+                <div className="absolute top-[0px] left-[0px] rounded-2xl bg-darkslategray-100 w-[1071px] h-[117px]" />
+                <div className="absolute top-[37px] left-[calc(50%_-_313.5px)] w-[628px] h-11">
+                  <div className="absolute top-[0px] left-[calc(50%_-_314px)] tracking-[0.03em] uppercase">
+                    Put total supply into initial liquidity
+                  </div>
+                </div>
+              </div>
+              <div className="absolute top-[295px] left-[1px] w-[1071px] h-[117px]">
+                <div className="absolute top-[0px] left-[0px] rounded-2xl bg-darkslategray-100 w-[587px] h-[117px]" />
+                <div className="absolute top-[0px] left-[610px] rounded-2xl bg-darkslategray-100 w-[461px] h-[117px]" />
+                <div className="absolute top-[37px] left-[calc(50%_+_119.5px)] w-[371px] h-11">
+                  <div className="absolute top-[6px] left-[calc(50%_+_69.5px)]">
+                    <span className="uppercase">{`2 `}</span>months
+                  </div>
+                  <div className="absolute top-[0px] left-[calc(50%_-_185.5px)] w-[124px] h-11 text-left text-9xl font-jan-brady">
+                    <div className="absolute top-[0px] left-[calc(50%_-_62px)] tracking-[0.03em] uppercase">
+                      LP Lock:
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute top-[35px] left-[calc(50%_-_487.5px)] w-[491px] h-[46px] text-left text-9xl font-jan-brady">
+                  <div className="absolute top-[2px] left-[calc(50%_-_245.5px)] w-[166px] h-11">
+                    <div className="absolute top-[0px] left-[calc(50%_-_83px)] tracking-[0.03em] uppercase">
+                      Ownership:
+                    </div>
+                  </div>
+                  <div className="absolute top-[0px] left-[calc(50%_+_99.5px)] text-7xl font-inter text-center">
+                    Renounced
+                  </div>
+                </div>
+              </div>
+              <div className="absolute top-[148px] left-[0px] w-[1072px] h-[117px] text-3xl">
+                <div className="absolute top-[0px] left-[0px] rounded-2xl bg-darkslategray-100 w-[588px] h-[117px]" />
+                <div className="absolute top-[0px] left-[611px] rounded-2xl bg-darkslategray-100 w-[461px] h-[117px]" />
+                <div className="absolute top-[41px] left-[calc(50%_+_120px)] w-[371px] h-11">
+                  <div className="absolute top-[3px] left-[calc(50%_+_156.5px)] uppercase">
+                    v2
+                  </div>
+                  <div className="absolute top-[0px] left-[calc(50%_-_185.5px)] w-[271px] h-11 text-left text-9xl font-jan-brady">
+                    <div className="absolute top-[0px] left-[calc(50%_-_135.5px)] tracking-[0.03em] uppercase">
+                      Pool on Uniswap:
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute top-[20px] left-[calc(50%_-_489px)] w-[494px] h-[78px] text-left text-9xl font-jan-brady">
+                  <div className="absolute top-[0px] left-[calc(50%_-_247px)] w-[248px] h-[78px]">
+                    <div className="absolute top-[0px] left-[calc(50%_-_124px)] w-[248px] h-[78px]">
+                      <div className="absolute top-[0px] left-[calc(50%_-_124px)] w-[248px] h-[78px]">
+                        <div className="absolute top-[0px] left-[calc(50%_-_124px)] tracking-[0.03em] leading-[77.78px] uppercase">
+                          Inital liquidity:
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="absolute top-[19px] left-[calc(50%_+_44px)] text-7xl uppercase font-inter text-center">
+                    10,000.0000000
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-  
-          <div className="absolute top-[6241px] left-[0px] bg-darkslategray-100 w-full h-[374px]" />
-  
-          <div className="absolute h-[1.58%] w-[23.58%] top-[110.63%] right-[68.08%] bottom-[-12.21%] left-[8.33%]">
-            <img
-              className="absolute h-[36.3%] w-[59.54%] top-[31.79%] right-[0%] bottom-[31.9%] left-[40.46%] max-w-full overflow-hidden max-h-full"
-              alt=""
-              src="/group12.svg"
-            />
-            <img
-              className="absolute h-full w-[38.46%] top-[0%] right-[61.54%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
-              alt=""
-              src="/group13.svg"
-            />
-          </div>
-  
-          <div className="absolute top-[6323.3px] left-[842px] w-[477.6px] h-[209.9px] text-12xl font-roboto">
-            <div className="absolute top-[0px] left-[0px] w-[477.6px] h-[49.8px]">
-              <img
-                className="absolute top-[0px] left-[0px] w-[49.8px] h-[49.8px] overflow-hidden"
-                alt=""
-                src="/frame2.svg"
-              />
-              <div className="absolute top-[6.4px] left-[71.6px] inline-block w-[406px] h-9">{`admin@elephantbearinu.com `}</div>
+          <div className="absolute top-[1232px] left-[calc(50%_-_618px)] w-[1234px] h-[679.2px] text-left text-33xl font-jan-brady">
+            <div className="absolute top-[24px] left-[calc(50%_-_260px)] tracking-[0.03em] leading-[77.78px] uppercase text-transparent !bg-clip-text [background:linear-gradient(97.36deg,_#36a9f3,_#6256fe)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+              Elephant
             </div>
-            <div className="absolute top-[80.1px] left-[0px] w-[297.4px] h-[49.8px]">
-              <img
-                className="absolute top-[0px] left-[0px] w-[49.8px] h-[49.8px]"
-                alt=""
-                src="/group-17.svg"
-              />
-              <div className="absolute top-[6.4px] left-[64.4px] inline-block w-[233px] h-9">
-                @elephantearinu
+            <div className="absolute top-[0px] left-[calc(50%_+_9px)] tracking-[0.03em] leading-[125px] uppercase">
+              Roadmap
+            </div>
+            <div className="absolute top-[190px] left-[0px] w-[1234px] h-[489.2px] text-xl font-inter">
+              <div className="absolute top-[0px] left-[0px] w-[1234px] h-[489.2px] overflow-hidden">
+                <div className="absolute h-[96.1%] w-[68.06%] top-[1.94%] right-[16.21%] bottom-[1.96%] left-[15.74%]">
+                  <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] opacity-[0.7]">
+                    <div className="absolute h-[5.64%] w-full top-[0%] right-[0%] bottom-[94.36%] left-[0%]">
+                      <img
+                        className="absolute h-full w-[25.18%] top-[0%] right-[74.82%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
+                        alt=""
+                        src="/group1.svg"
+                      />
+                      <img
+                        className="absolute h-full w-[25.18%] top-[0%] right-[37.47%] bottom-[0%] left-[37.34%] max-w-full overflow-hidden max-h-full"
+                        alt=""
+                        src="/group2.svg"
+                      />
+                      <img
+                        className="absolute h-full w-[25.18%] top-[0%] right-[0%] bottom-[0%] left-[74.82%] max-w-full overflow-hidden max-h-full"
+                        alt=""
+                        src="/group3.svg"
+                      />
+                    </div>
+                    <div className="absolute h-[5.64%] w-full top-[94.38%] right-[0%] bottom-[-0.02%] left-[0%]">
+                      <img
+                        className="absolute h-full w-[25.18%] top-[0%] right-[74.82%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
+                        alt=""
+                        src="/group4.svg"
+                      />
+                      <img
+                        className="absolute h-full w-[25.18%] top-[0%] right-[37.47%] bottom-[0%] left-[37.34%] max-w-full overflow-hidden max-h-full"
+                        alt=""
+                        src="/group5.svg"
+                      />
+                      <img
+                        className="absolute h-full w-[25.18%] top-[0%] right-[0%] bottom-[0%] left-[74.82%] max-w-full overflow-hidden max-h-full"
+                        alt=""
+                        src="/group6.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute h-full w-[20.89%] top-[0%] right-[77.97%] bottom-[0%] left-[1.13%]">
+                  <img
+                    className="absolute h-full w-[8.07%] top-[0%] right-[45.97%] bottom-[0%] left-[45.97%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/group7.svg"
+                  />
+                  <img
+                    className="absolute h-[70.26%] w-full top-[16.25%] right-[0%] bottom-[13.49%] left-[0%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/vector.svg"
+                  />
+                  <img
+                    className="absolute h-[25.45%] w-[64.24%] top-[10.43%] right-[17.88%] bottom-[64.13%] left-[17.88%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/group8.svg"
+                  />
+                  <img
+                    className="absolute h-[0.94%] w-full top-[83.57%] right-[-0.04%] bottom-[15.49%] left-[0.04%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/vector1.svg"
+                  />
+                  <div className="absolute top-[44.15%] left-[8px] inline-block w-[242px]">
+                    <p className="m-0">1,000 HOLDERS</p>
+                    <p className="m-0">1,000 Telegram Members</p>
+                    <p className="m-0">100K Volume/24h</p>
+                    <p className="m-0">Coingecko Listing</p>
+                    <p className="m-0">CMC Listing</p>
+                    <p className="m-0">BuyBack with 50K usd</p>
+                  </div>
+                </div>
+                <img
+                  className="absolute h-full w-[20.89%] top-[0%] right-[52.61%] bottom-[0%] left-[26.5%] max-w-full overflow-hidden max-h-full"
+                  alt=""
+                  src="/group-163.svg"
+                />
+                <div className="absolute h-full w-[20.89%] top-[0%] right-[27.24%] bottom-[0%] left-[51.86%]">
+                  <img
+                    className="absolute h-full w-[8.07%] top-[0%] right-[45.97%] bottom-[0%] left-[45.97%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/group9.svg"
+                  />
+                  <img
+                    className="absolute h-[70.26%] w-full top-[16.25%] right-[0%] bottom-[13.49%] left-[0%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/vector2.svg"
+                  />
+                  <img
+                    className="absolute h-[25.41%] w-[64.24%] top-[10.47%] right-[17.88%] bottom-[64.13%] left-[17.88%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/group10.svg"
+                  />
+                  <img
+                    className="absolute h-[0.94%] w-full top-[83.57%] right-[0%] bottom-[15.49%] left-[0%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/vector3.svg"
+                  />
+                  <div className="absolute w-[94.65%] top-[44.15%] left-[2.72%] inline-block">
+                    <p className="m-0">5,000+ HOLDERS</p>
+                    <p className="m-0">2,000 Telegram Members</p>
+                    <p className="m-0">Partnerships</p>
+                    <p className="m-0">1B Marketcap</p>
+                    <p className="m-0">Launch Elephant ERC404</p>
+                    <p className="m-0">Huge BuyBack</p>
+                  </div>
+                </div>
+                <div className="absolute h-full w-[20.89%] top-[0%] right-[1.88%] bottom-[0%] left-[77.23%] text-center text-[32px]">
+                  <img
+                    className="absolute h-full w-[8.07%] top-[0%] right-[45.97%] bottom-[0%] left-[45.97%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/group9.svg"
+                  />
+                  <img
+                    className="absolute h-[70.26%] w-full top-[16.15%] right-[0%] bottom-[13.59%] left-[0%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/vector4.svg"
+                  />
+                  <img
+                    className="absolute h-[25.27%] w-[64.24%] top-[10.61%] right-[17.88%] bottom-[64.13%] left-[17.88%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/group11.svg"
+                  />
+                  <img
+                    className="absolute h-[0.94%] w-full top-[83.57%] right-[0%] bottom-[15.49%] left-[0%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/vector3.svg"
+                  />
+                  <div className="absolute w-[79.13%] top-[44.15%] left-[10.47%] font-semibold inline-block">
+                    To The Moon
+                  </div>
+                </div>
+                <div className="absolute top-[216px] left-[339px]">
+                  <p className="m-0">2,000 HOLDERS</p>
+                  <p className="m-0">1,500 Telegram Members</p>
+                  <p className="m-0">1M liquidity</p>
+                  <p className="m-0">1M Volume/24h</p>
+                  <p className="m-0">BuyBack with 100K usd</p>
+                  <p className="m-0">CEX Listin</p>
+                </div>
+                <img
+                  className="absolute top-[240px] left-[771px] w-[463.3px] h-[447.4px] overflow-hidden"
+                  alt=""
+                  src="/frame1.svg"
+                />
               </div>
             </div>
-            <div className="absolute h-[23.73%] w-[53.29%] top-[76.32%] right-[46.48%] bottom-[-0.05%] left-[0.23%]">
-              <img
-                className="absolute h-full w-[19.57%] top-[0%] right-[80.43%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
-                alt=""
-                src="/vector5.svg"
-              />
-              <img
-                className="absolute top-[0px] left-[103.6px] w-[48.7px] h-[49.8px] overflow-hidden"
-                alt=""
-                src="/frame3.svg"
-              />
-              <img
-                className="absolute h-[94.38%] w-[18.94%] top-[2.21%] right-[0.04%] bottom-[3.41%] left-[81.02%] max-w-full overflow-hidden max-h-full"
-                alt=""
-                src="/vector6.svg"
-              />
+          </div>
+          <b className="absolute top-[57.9%] left-[12.78%]">
+            <p className="m-0">PHASE</p>
+            <p className="m-0">1</p>
+          </b>
+          <b className="absolute top-[57.9%] left-[34.44%]">
+            <p className="m-0">PHASE</p>
+            <p className="m-0">2</p>
+          </b>
+          <b className="absolute top-[57.9%] left-[56.18%]">
+            <p className="m-0">PHASE</p>
+            <p className="m-0">3</p>
+          </b>
+          <b className="absolute top-[57.9%] left-[78.06%]">
+            <p className="m-0">PHASE</p>
+            <p className="m-0">4</p>
+          </b>
+          <div className="absolute top-[1258px] left-[calc(50%_-_1119px)] [filter:blur(244px)] rounded-[50%] [background:linear-gradient(144.46deg,_rgba(55,_167,_244,_0.18),_rgba(88,_106,_252,_0.18))] w-[954px] h-[963px]" />
+          <div className="absolute top-[2512px] left-[calc(50%_-_286px)] text-xl uppercase">
+            Copyright © 2024 ElephantME. All Rights Reserved.
+          </div>
+          <div className="absolute top-[calc(50%_-_1287px)] left-[calc(50%_+_273px)] [filter:blur(231px)] rounded-[50%] [background:linear-gradient(144.46deg,_rgba(55,_167,_244,_0.18),_rgba(88,_106,_252,_0.18))] w-[1002px] h-[1002px]" />
+        </div>
+
+        <img
+          className="absolute top-[4254px] left-[-357px] w-[2508px] h-[2508px] object-cover hidden opacity-[0.09]"
+          alt=""
+          src="/untitled-2-1@2x.png"
+        />
+
+        <div className="absolute top-[6093px] left-[1180px] w-[42px] h-[42px]">
+          <div className="absolute top-[0px] left-[0px] w-[42px] h-[42px]">
+            <div className="absolute top-[0px] left-[0px] w-[42px] h-[42px]">
+              <div className="absolute top-[0px] left-[0px] w-[42px] h-[42px]">
+                <div className="absolute top-[0px] left-[0px] w-[42px] h-[42px] overflow-hidden" />
+              </div>
             </div>
-          </div> */}
+          </div>
+        </div>
+
+        <div className="absolute top-[6241px] left-[0px] bg-darkslategray-100 w-full h-[374px]" />
+
+        <div className="absolute h-[1.58%] w-[23.58%] top-[110.63%] right-[68.08%] bottom-[-12.21%] left-[8.33%]">
+          <img
+            className="absolute h-[36.3%] w-[59.54%] top-[31.79%] right-[0%] bottom-[31.9%] left-[40.46%] max-w-full overflow-hidden max-h-full"
+            alt=""
+            src="/group12.svg"
+          />
+          <img
+            className="absolute h-full w-[38.46%] top-[0%] right-[61.54%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
+            alt=""
+            src="/group13.svg"
+          />
+        </div>
+
+        <div className="absolute top-[6323.3px] left-[842px] w-[477.6px] h-[209.9px] text-12xl font-roboto">
+          <div className="absolute top-[0px] left-[0px] w-[477.6px] h-[49.8px]">
+            <img
+              className="absolute top-[0px] left-[0px] w-[49.8px] h-[49.8px] overflow-hidden"
+              alt=""
+              src="/frame2.svg"
+            />
+            <div className="absolute top-[6.4px] left-[71.6px] inline-block w-[406px] h-9">{`admin@elephantbearinu.com `}</div>
+          </div>
+          <div className="absolute top-[80.1px] left-[0px] w-[297.4px] h-[49.8px]">
+            <img
+              className="absolute top-[0px] left-[0px] w-[49.8px] h-[49.8px]"
+              alt=""
+              src="/group-17.svg"
+            />
+            <div className="absolute top-[6.4px] left-[64.4px] inline-block w-[233px] h-9">
+              @elephantearinu
+            </div>
+          </div>
+          <div className="absolute h-[23.73%] w-[53.29%] top-[76.32%] right-[46.48%] bottom-[-0.05%] left-[0.23%]">
+            <img
+              className="absolute h-full w-[19.57%] top-[0%] right-[80.43%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
+              alt=""
+              src="/vector5.svg"
+            />
+            <img
+              className="absolute top-[0px] left-[103.6px] w-[48.7px] h-[49.8px] overflow-hidden"
+              alt=""
+              src="/frame3.svg"
+            />
+            <img
+              className="absolute h-[94.38%] w-[18.94%] top-[2.21%] right-[0.04%] bottom-[3.41%] left-[81.02%] max-w-full overflow-hidden max-h-full"
+              alt=""
+              src="/vector6.svg"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
