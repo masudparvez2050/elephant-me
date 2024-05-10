@@ -1,7 +1,7 @@
 const Tokenomics = () => {
   return (
-    <div className="relative w-full h-auto  bg-gray-100 text-white grid place-items-center ">
-      {/* <div className="absolute  left-[calc(50%_+_273px)] [filter:blur(231px)] rounded-[50%] [background:linear-gradient(144.46deg,_rgba(55,_167,_244,_0.3),_rgba(88,_106,_252,_0.18))] w-full h-[1002px]" /> */}
+    <div className="relative w-full h-auto  bg-gray-100 text-white grid place-items-center overflow-hidden ">
+      <div className="absolute  left-[calc(50%_+_273px)] [filter:blur(231px)] rounded-[50%] [background:linear-gradient(144.46deg,_rgba(55,_167,_244,_0.3),_rgba(88,_106,_252,_0.18))] w-full h-[1002px]" />
 
       <div className=" text-[45px] md:text-[52px] my-10 md:my-0  uppercase font-jan-brady text-transparent !bg-clip-text [background:linear-gradient(97.36deg,_#36a9f3,_#6256fe)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
         Tokenomics

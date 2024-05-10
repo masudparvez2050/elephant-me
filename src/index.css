@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jan+Brady:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+
+@font-face {
+  font-family: 'jan brady';
+  font-style: normal;
+  font-weight: normal;
+  src: local('/font/JANBRADY.woff'), url('/font/JANBRADY.woff') format('woff');
+  }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,3 +21,9 @@ body {
 ::after {
   border-width: 0;
 }
+
+html {
+
+  font-family: 'jan brady', 'Inter',
+}
+
