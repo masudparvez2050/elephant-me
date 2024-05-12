@@ -1,9 +1,9 @@
 const Roadmap = () => {
   return (
-    <div className="relative w-screen h-auto   bg-gray-100 text-white grid place-items-center overflow-hidden ">
-      <div className=" md:w-full h-[100vh]  inset-0 z-0 fixed flex items-center justify-center md:justify-start ">
+    <div className="relative w-full h-auto   bg-gray-100 text-white grid place-items-center overflow-hidden ">
+      <div className=" md:w-full h-[100vh]  inset-0 z-0 md:absolute fixed flex items-center justify-center md:justify-start ">
         <img
-          className=" h-[500px] md:h-[100vh] object-cover   "
+          className=" h-[500px] md:h-[80vh] object-cover   "
           alt=""
           src="/group-171@2x.png"
         />

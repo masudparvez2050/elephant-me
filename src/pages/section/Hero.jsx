@@ -33,7 +33,7 @@ const Hero = () => {
           <div className="grid place-items-center">
             {" "}
             <img
-              className="relative md:w-[90%]  xl:w-[100%] w-[80%] h-[100%] "
+              className="relative md:w-[90%]  xl:w-[90%] w-[80%] h-[100%] "
               alt=""
               src="/elephant-hero-img.svg"
             />
