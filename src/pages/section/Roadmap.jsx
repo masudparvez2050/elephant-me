@@ -1,13 +1,13 @@
 const Roadmap = () => {
   return (
     <div className="relative w-screen h-auto   bg-gray-100 text-white grid place-items-center overflow-hidden ">
-      {/* <div className=" md:w-full h-[100vh]  inset-0 z-0 fixed flex items-center justify-center md:justify-start ">
+      <div className=" md:w-full h-[100vh]  inset-0 z-0 fixed flex items-center justify-center md:justify-start ">
         <img
           className=" h-[500px] md:h-[100vh] object-cover   "
           alt=""
           src="/group-171@2x.png"
         />
-      </div> */}
+      </div>
       <div className="absolute left-[calc(50%_-_1119px)] [filter:blur(244px)] rounded-[50%] [background:linear-gradient(144.46deg,_rgba(55,_167,_244,_0.25),_rgba(88,_106,_252,_0.25))] w-[954px] h-[963px] z-10" />
 
       <div className=" flex flex-col md:flex-row md:gap-4 justify-center items-center uppercase font-jan-brady  h-full  z-10 md:mb-[200px] mt-10 ">
