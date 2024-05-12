@@ -16,7 +16,7 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
 const Gallary = () => {
   return (
-    <div className="relative w-full h-[100vh]  bg-gray-100 text-white grid place-items-center z-10  overflow-hidden ">
+    <div className="relative w-full h-auto  bg-gray-100 text-white grid place-items-center z-10  overflow-hidden ">
       <img
         className="absolute w-[100vw]    opacity-[0.2]"
         alt=""
