@@ -55,22 +55,22 @@ const Gallary = () => {
           modules={[EffectCoverflow, Pagination, Navigation]}
           className="swiper_container"
         >
-          <SwiperSlide className="shadow-[0px_3.7px_3.7px_rgba(9,_9,_10,_0.37)] [backdrop-filter:blur(24.68px)] rounded-[26.58px] [background:linear-gradient(-1.29deg,_rgba(19,_29,_192,_0),_rgba(98,_86,_254,_0.55))] w-[358 p-8 py-10 bg-[#27436f] flex rounded-3xl  border-[1.5px] border-solid border-deepskyblue shadow-2xl shadow-[#3b4981]  ">
+          <SwiperSlide className="shadow-[0px_3.7px_3.7px_rgba(9,_9,_10,_0.37)] [backdrop-filter:blur(24.68px)] rounded-[26.58px] [background:linear-gradient(-1.29deg,_rgba(19,_29,_192,_0),_rgba(98,_86,_254,_0.55))] w-[358 p-8 py-10 bg-[#27436f] flex rounded-3xl  border-[1.5px] border-solid border-deepskyblue shadow-2xl shadow-[#3b4981] [filter:drop-shadow(0px_-1px_10px_#6256fe)]  ">
             <img src={slide_image_1} alt="slide_image" />
           </SwiperSlide>
-          <SwiperSlide className="shadow-[0px_3.7px_3.7px_rgba(9,_9,_10,_0.37)] [backdrop-filter:blur(24.68px)] rounded-[26.58px] [background:linear-gradient(-1.29deg,_rgba(19,_29,_192,_0),_rgba(98,_86,_254,_0.55))] w-[358 p-8 py-10 bg-[#27436f] flex rounded-3xl  border-[1.5px] border-solid border-deepskyblue shadow-2xl shadow-[#3b4981]">
+          <SwiperSlide className="shadow-[0px_3.7px_3.7px_rgba(9,_9,_10,_0.37)] [backdrop-filter:blur(24.68px)] rounded-[26.58px] [background:linear-gradient(-1.29deg,_rgba(19,_29,_192,_0),_rgba(98,_86,_254,_0.55))] w-[358 p-8 py-10 bg-[#27436f] flex rounded-3xl  border-[1.5px] border-solid border-deepskyblue shadow-2xl shadow-[#3b4981] [filter:drop-shadow(0px_-1px_10px_#6256fe)] ">
             <img src={slide_image_2} alt="slide_image" />
           </SwiperSlide>
-          <SwiperSlide className="shadow-[0px_3.7px_3.7px_rgba(9,_9,_10,_0.37)] [backdrop-filter:blur(24.68px)] rounded-[26.58px] [background:linear-gradient(-1.29deg,_rgba(19,_29,_192,_0),_rgba(98,_86,_254,_0.55))] w-[358 p-8 py-10 bg-[#27436f] flex rounded-3xl  border-[1.5px] border-solid border-deepskyblue shadow-2xl shadow-[#3b4981]">
+          <SwiperSlide className="shadow-[0px_3.7px_3.7px_rgba(9,_9,_10,_0.37)] [backdrop-filter:blur(24.68px)] rounded-[26.58px] [background:linear-gradient(-1.29deg,_rgba(19,_29,_192,_0),_rgba(98,_86,_254,_0.55))] w-[358 p-8 py-10 bg-[#27436f] flex rounded-3xl  border-[1.5px] border-solid border-deepskyblue shadow-2xl shadow-[#3b4981] [filter:drop-shadow(0px_-1px_10px_#6256fe)] ">
             <img src={slide_image_3} alt="slide_image" />
           </SwiperSlide>
-          <SwiperSlide className="shadow-[0px_3.7px_3.7px_rgba(9,_9,_10,_0.37)] [backdrop-filter:blur(24.68px)] rounded-[26.58px] [background:linear-gradient(-1.29deg,_rgba(19,_29,_192,_0),_rgba(98,_86,_254,_0.55))] w-[358 p-8 py-10 bg-[#27436f] flex rounded-3xl  border-[1.5px] border-solid border-deepskyblue shadow-2xl shadow-[#3b4981]">
+          <SwiperSlide className="shadow-[0px_3.7px_3.7px_rgba(9,_9,_10,_0.37)] [backdrop-filter:blur(24.68px)] rounded-[26.58px] [background:linear-gradient(-1.29deg,_rgba(19,_29,_192,_0),_rgba(98,_86,_254,_0.55))] w-[358 p-8 py-10 bg-[#27436f] flex rounded-3xl  border-[1.5px] border-solid border-deepskyblue shadow-2xl shadow-[#3b4981] [filter:drop-shadow(0px_-1px_10px_#6256fe)] ">
             <img src={slide_image_4} alt="slide_image" />
           </SwiperSlide>
-          <SwiperSlide className="shadow-[0px_3.7px_3.7px_rgba(9,_9,_10,_0.37)] [backdrop-filter:blur(24.68px)] rounded-[26.58px] [background:linear-gradient(-1.29deg,_rgba(19,_29,_192,_0),_rgba(98,_86,_254,_0.55))] w-[358 p-8 py-10 bg-[#27436f] flex rounded-3xl  border-[1.5px] border-solid border-deepskyblue shadow-2xl shadow-[#3b4981]">
+          <SwiperSlide className="shadow-[0px_3.7px_3.7px_rgba(9,_9,_10,_0.37)] [backdrop-filter:blur(24.68px)] rounded-[26.58px] [background:linear-gradient(-1.29deg,_rgba(19,_29,_192,_0),_rgba(98,_86,_254,_0.55))] w-[358 p-8 py-10 bg-[#27436f] flex rounded-3xl  border-[1.5px] border-solid border-deepskyblue shadow-2xl shadow-[#3b4981] [filter:drop-shadow(0px_-1px_10px_#6256fe)] ">
             <img src={slide_image_5} alt="slide_image" />
           </SwiperSlide>
-          <SwiperSlide className="shadow-[0px_3.7px_3.7px_rgba(9,_9,_10,_0.37)] [backdrop-filter:blur(24.68px)] rounded-[26.58px] [background:linear-gradient(-1.29deg,_rgba(19,_29,_192,_0),_rgba(98,_86,_254,_0.55))] w-[358 p-8 py-10 bg-[#27436f] flex rounded-3xl  border-[1.5px] border-solid border-deepskyblue shadow-2xl shadow-[#3b4981]">
+          <SwiperSlide className="shadow-[0px_3.7px_3.7px_rgba(9,_9,_10,_0.37)] [backdrop-filter:blur(24.68px)] rounded-[26.58px] [background:linear-gradient(-1.29deg,_rgba(19,_29,_192,_0),_rgba(98,_86,_254,_0.55))] w-[358 p-8 py-10 bg-[#27436f] flex rounded-3xl  border-[1.5px] border-solid border-deepskyblue shadow-2xl shadow-[#3b4981] [filter:drop-shadow(0px_-1px_10px_#6256fe)] ">
             <img src={slide_image_6} alt="slide_image" />
           </SwiperSlide>
 
