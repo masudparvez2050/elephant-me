@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <>
-      <div className="relative bg-gray-100 w-full h-[100vh]  font-inter text-white  overflow-hidden ">
+      <div className="relative bg-gray-100 w-full h-[100vh]  font-inter text-white  overflow-hidden z-10 ">
         <div className="flex justify-center w-full h-full absolute">
           <img
             className=" absolute w-[140%] xl:top-[-10px] top-[70px]  md:w-[80%] md:h-auto  object-cover opacity-[0.70] mix-blend-soft-light"

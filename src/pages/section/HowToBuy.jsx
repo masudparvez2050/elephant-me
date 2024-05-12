@@ -1,6 +1,6 @@
 const HowToBuy = () => {
   return (
-    <div className="relative w-full h-auto  bg-gray-100 text-white grid place-items-center">
+    <div className="relative w-full h-auto  bg-gray-100 text-white grid place-items-center z-10">
       <div className="md:text-[52px] text-[30px] font-jan-brady flex flex-col md:flex-row justify-center items-center md:gap-8 gap-2 my-10">
         <div className=" uppercase ">How to buy</div>
         <div className=" uppercase text-transparent !bg-clip-text [background:linear-gradient(97.36deg,_#36a9f3,_#6256fe)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
