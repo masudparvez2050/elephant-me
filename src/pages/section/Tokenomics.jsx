@@ -63,7 +63,7 @@ const Tokenomics = () => {
             Token Address
           </div>
           <div className="m-4 md:m-10 flex justify-center items-center rounded-2xl bg-darkslategray-100 md:w-[70%] md:h-24 h-10 p-2 px-4 w-[85%]">
-            <div className=" relative grid place-items-center uppercase text-slate-200 text-[60%] md:text-[100%] md:w-[85%] ">
+            <div className=" relative grid place-items-center uppercase text-slate-200 text-[60%] md:text-[105%] md:w-[85%] ">
               FLrgwxXaX8q8ECF18weDf3PLAYorXST5orpY34d8jfbm
             </div>
             <img
