@@ -6,7 +6,7 @@ const Footer = () => {
           <div>
             <img
               className=" ml-[-40px] w-[140%] md:ml-0 md:w-[160%] mb-4 md:mb-0"
-              src="/elephant-logo.svg"
+              src="/assets/elephant-logo.svg"
               alt=""
             />
           </div>
@@ -15,7 +15,7 @@ const Footer = () => {
               <div>
                 <img
                   className=" w-[40px] md:w-[50px]"
-                  src="/frame2.svg"
+                  src="/assets/frame2.svg"
                   alt=""
                 />
               </div>
@@ -24,7 +24,7 @@ const Footer = () => {
             <div className=" flex gap-4 items-center">
               <img
                 className=" w-[40px] md:w-[50px]"
-                src="/group-17.svg"
+                src="/assets/group-17.svg"
                 alt=""
               />
               <div className=" md:text-[22px]">@elephantearinu</div>
@@ -32,13 +32,17 @@ const Footer = () => {
             <div className=" flex gap-10 items-center">
               <img
                 className=" w-[40px] md:w-[50px]"
-                src="/vector5.svg"
+                src="/assets/vector5.svg"
                 alt=""
               />
-              <img className=" w-[40px] md:w-[50px]" src="/frame3.svg" alt="" />
               <img
                 className=" w-[40px] md:w-[50px]"
-                src="/vector6.svg"
+                src="/assets/frame3.svg"
+                alt=""
+              />
+              <img
+                className=" w-[40px] md:w-[50px]"
+                src="/assets/vector6.svg"
                 alt=""
               />
             </div>

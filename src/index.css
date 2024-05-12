@@ -24,6 +24,7 @@ body {
 
 html {
 
-  font-family: 'jan brady', 'Inter',
+  font-family: 'jan brady', 'Inter';
+  scroll-behavior: smooth;
 }
 

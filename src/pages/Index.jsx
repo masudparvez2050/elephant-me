@@ -14,7 +14,7 @@ const Index = () => {
       {/*----- <Menu /> ------*/}
       <div className="  shadow-[0px_4px_25px_rgba(0,_0,_0,_0.57)] [backdrop-filter:blur(112px)] bg-gray-200 w-full h-[80px] flex justify-around items-center text-white z-50 fixed">
         {" "}
-        <img className=" relative" alt="" src="/elephant-logo.svg" />
+        <img className=" relative" alt="" src="/assets/elephant-logo.svg" />
         {/*  ---- Desktop View  Menu ---- */}
         <div className="hidden md:block   ">
           <div className="flex flex-col md:flex-row gap-8 items-center relative transition-all duration-300">
@@ -58,10 +58,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <div className="md:hidden z-20">
+        <div className="md:hidden z-20 transition-all duration-300">
           <button
             onClick={toggleMenu}
-            className="focus:outline-none bg-gray-200 [backdrop-filter:blur(112px)] "
+            className="focus:outline-none bg-gray-200 [backdrop-filter:blur(112px)] transition-all duration-300 "
           >
             <svg
               className="h-6 w-6 text-white"
@@ -82,8 +82,8 @@ const Index = () => {
         </div>
         {/* ---- Mobile View Menu ----*/}
         {isOpen && (
-          <div className="absolute w-full flex justify-end  z-10">
-            <div className="  md:hidden shadow-[0px_4px_25px_rgba(0,_0,_0,_0.8)] [backdrop-filter:blur(100px)] bg-[#0f2141] mt-[270px]  py-4 pl-5  pr-10 ">
+          <div className="absolute w-full flex justify-end  z-10   ">
+            <div className="  md:hidden shadow-[0px_4px_25px_rgba(0,_0,_0,_0.8)] [backdrop-filter:blur(100px)] bg-[#0f2141] mt-[270px] rounded-md  py-4 pl-5  pr-10  transition-all duration-300 ">
               <div className="flex flex-col gap-2   relative transition-all duration-300">
                 <div className="hover:[filter:drop-shadow(0px_-1px_10px_#6256fe)] hover:border-b-2  hover:border-solid hover:border-deepskyblue pb-1">
                   <a href="#" className="no-underline text-white ">
@@ -114,15 +114,6 @@ const Index = () => {
                     Roadmap
                   </a>
                 </div>
-                {/* <div className="  [background:linear-gradient(94.49deg,_#36a9f3,_#6256fe)] w-[140px] h-[42px] grid place-items-center   box-border  hover:border-[2px] border-solid border-deepskyblue text-white hover:[filter:drop-shadow(0px_-1px_10px_#6256fe)]">
-              {" "}
-              <b className=" ">
-                {" "}
-                <a href="#" className="no-underline text-white ">
-                  Buy Now
-                </a>
-              </b>
-            </div> */}
               </div>
             </div>
           </div>
@@ -136,7 +127,7 @@ const Index = () => {
           <img
             className=" absolute w-[140%] xl:top-[-10px] top-[70px]  md:w-[80%] md:h-auto  object-cover opacity-[0.70] mix-blend-soft-light"
             alt=""
-            src="/bg-image-elephant@2x.png"
+            src="/assets/bg-image-elephant@2x.png"
           />
           <div className="absolute top-[-300px]  [filter:blur(231px)] rounded-[50%] [background:linear-gradient(144.46deg,_rgba(55,_167,_244,_0.3),_rgba(88,_106,_252,_0.3))] w-full h-full" />
         </div>
@@ -147,7 +138,7 @@ const Index = () => {
             <img
               className="relative md:w-[90%]  xl:w-[90%] w-[80%] h-[100%] "
               alt=""
-              src="/elephant-hero-img.svg"
+              src="/assets/elephant-hero-img.svg"
             />
           </div>
           <div className="">
@@ -189,7 +180,7 @@ const Index = () => {
         <img
           className="absolute  w-[63%] h-[100vh]  object-cover opacity-[0.5]"
           alt=""
-          src="/power@2x.png"
+          src="/assets/power@2x.png"
         />
         <div className="absolute  [filter:blur(231px)] rounded-[50%] [background:linear-gradient(144.46deg,_rgba(55,_167,_244,_0.3),_rgba(88,_106,_252,_0.3))] w-full h-[100vh] z-10 md:ml-[450px] mt-[-100px]" />
 
@@ -218,7 +209,7 @@ const Index = () => {
             <img
               className="  w-[80%] md:w-[80%] max-w-full overflow-hidden "
               alt=""
-              src="/group.svg"
+              src="/assets/group.svg"
             />
           </div>
         </div>
@@ -232,42 +223,42 @@ const Index = () => {
               <img
                 className=" w-[60%]  object-cover "
                 alt=""
-                src="/cmc-logo-1@2x.png"
+                src="/assets/cmc-logo-1@2x.png"
               />
             </div>
             <div className="relative bg-darkslategray-100 box-border w-[144.9px] h-[133px] border-[2.4px]  rounded-[7.83px] border-solid border-deepskyblue  grid place-items-center">
               <img
                 className=" w-[60%]  object-cover "
                 alt=""
-                src="/cg-logo-1@2x.png"
+                src="/assets/cg-logo-1@2x.png"
               />
             </div>{" "}
             <div className="relative bg-darkslategray-100 box-border w-[144.9px] h-[133px] border-[2.4px]  rounded-[7.83px] border-solid border-deepskyblue  grid place-items-center">
               <img
                 className=" w-[80%]  object-cover "
                 alt=""
-                src="/okxdex4768x515-1@2x.png"
+                src="/assets/okxdex4768x515-1@2x.png"
               />
             </div>{" "}
             <div className="relative bg-darkslategray-100 box-border w-[144.9px] h-[133px] border-[2.4px]  rounded-[7.83px] border-solid border-deepskyblue  grid place-items-center">
               <img
                 className=" w-[80%]  object-cover "
                 alt=""
-                src="/lbank768x538-1@2x.png"
+                src="/assets/lbank768x538-1@2x.png"
               />
             </div>{" "}
             <div className="relative bg-darkslategray-100 box-border w-[144.9px] h-[133px] border-[2.4px]  rounded-[7.83px] border-solid border-deepskyblue  grid place-items-center">
               <img
                 className=" w-[60%]  object-cover "
                 alt=""
-                src="/bitrue-logo-1@2x.png"
+                src="/assets/bitrue-logo-1@2x.png"
               />
             </div>
             <div className="relative bg-darkslategray-100 box-border w-[144.9px] h-[133px] border-[2.4px]  rounded-[7.83px] border-solid border-deepskyblue  grid place-items-center">
               <img
                 className=" w-[80%]  object-cover "
                 alt=""
-                src="/jup-1@2x.png"
+                src="/assets/jup-1@2x.png"
               />
             </div>
           </div>
@@ -294,7 +285,7 @@ const Index = () => {
             <img
               className=" w-[102px] h-[102px] overflow-hidden"
               alt=""
-              src="/frame4.svg"
+              src="/assets/frame4.svg"
             />
             <div className=" font-jan-brady text-[20px] md:text-[30px]">
               Create a Wallet
@@ -310,7 +301,7 @@ const Index = () => {
             <img
               className=" w-[102px] h-[102px] overflow-hidden"
               alt=""
-              src="/frame5.svg"
+              src="/assets/frame5.svg"
             />
             <div className=" font-jan-brady text-[20px] md:text-[30px]">
               Get Some ETH
@@ -326,7 +317,7 @@ const Index = () => {
             <img
               className=" w-[102px] h-[102px] overflow-hidden"
               alt=""
-              src="/frame4.svg"
+              src="/assets/frame4.svg"
             />
             <div className=" font-jan-brady text-[20px] md:text-[30px]">
               Go to Uniswap
@@ -343,7 +334,7 @@ const Index = () => {
             <img
               className=" w-[102px] h-[102px] overflow-hidden"
               alt=""
-              src="/frame4.svg"
+              src="/assets/frame4.svg"
             />
             <div className=" font-jan-brady text-[20px] md:text-[30px]">
               Switch ETH for $ELEPHANT
@@ -432,7 +423,7 @@ const Index = () => {
               <img
                 className=" md:w-[42px] md:h-[42px] w-[24px] h-[24px] "
                 alt=""
-                src="/frame.svg"
+                src="/assets/frame.svg"
               />
             </div>
           </div>
@@ -450,7 +441,7 @@ const Index = () => {
           <img
             className=" h-[345px] md:h-[80vh] md:object-cover"
             alt=""
-            src="/group-171@2x.png"
+            src="/assets/group-171@2x.png"
           />
         </div>
         <div className="absolute left-[calc(50%_-_1119px)] [filter:blur(244px)] rounded-[50%] [background:linear-gradient(144.46deg,_rgba(55,_167,_244,_0.25),_rgba(88,_106,_252,_0.25))] w-[954px] h-[963px] z-10" />
@@ -578,7 +569,11 @@ const Index = () => {
               <div className=" text-[35px] font-bold">To The Moon</div>
               <div>
                 {" "}
-                <img className=" scale-12 mt-6" src="/Erocket.svg" alt="" />
+                <img
+                  className=" scale-12 mt-6"
+                  src="/assets/Erocket.svg"
+                  alt=""
+                />
               </div>
             </div>
             <div className=" w-full h-1 bg-[#3aa0f4]"></div>
