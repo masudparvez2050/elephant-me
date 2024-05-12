@@ -20,7 +20,7 @@ const Gallary = () => {
       <img
         className="absolute w-[100vw]    opacity-[0.2]"
         alt=""
-        src="/public/back_gallary.png"
+        src="/back_gallary.png"
       />
 
       <div className="absolute top-[-2px] left-[calc(50%_-_501px)] [filter:blur(231px)] rounded-[50%] [background:linear-gradient(144.46deg,_rgba(55,_167,_244,_0.15),_rgba(88,_106,_252,_0.15))] w-[80%] h-[80%]" />
