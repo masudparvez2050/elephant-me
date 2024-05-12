@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="relative w-full h-auto  bg-gray-100 text-white grid place-items-center overflow-hidden z-10">
       <img
-        className="absolute  w-[70%] h-[100vh]  object-cover opacity-[0.5]"
+        className="absolute  w-[63%] h-[100vh]  object-cover opacity-[0.5]"
         alt=""
         src="/power@2x.png"
       />
