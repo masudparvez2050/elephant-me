@@ -222,9 +222,12 @@ const Index = () => {
               className="relative md:w-[90%] xl:w-[90%] w-[80%] h-[100%]"
               alt=""
               src="/assets/elephant-hero-img.svg"
-              initial={{ scale: 0, opacity: 0, y: "100%" }}
-              animate={{ scale: 1, opacity: 1, y: 0 }}
-              transition={{ duration: 1, ease: "easeOut" }}
+              animate={{ rotate: 360 }}
+              transition={{ type: "spring", duration: 5, bounce: 0.6 }}
+
+              // initial={{ scale: 0, opacity: 0, y: "100%" }}
+              // animate={{ scale: 1, opacity: 1, y: 0 }}
+              // transition={{ duration: 1, ease: "easeOut" }}
             />
           </div>
           <div className="">
