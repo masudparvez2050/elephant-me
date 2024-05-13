@@ -249,7 +249,7 @@ const Index = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="absolute w-[63%] h-[100vh] object-cover opacity-[0.5]"
+          className="absolute w-[100%] md:w-[60%] h-[100vh]  md:h-[100vh] object-cover opacity-[0.5]"
           alt=""
           src="/assets/power@2x.png"
         />
