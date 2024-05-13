@@ -530,7 +530,7 @@ const Index = () => {
       {/* ----------<Roadmap />-------- */}
       <div
         id="roadmap"
-        className="relative w-full md:h-[100vh]   bg-gray-100 text-white grid place-items-center overflow-hidden "
+        className="relative w-full  md:h-[100vh]   bg-gray-100 text-white grid place-items-center overflow-hidden "
       >
         <div className=" md:w-full h-[100vh]  inset-0 z-0 md:absolute fixed flex items-center justify-center md:justify-start ">
           <img
@@ -555,155 +555,168 @@ const Index = () => {
 
         <div className=" h-full z-10 flex flex-col md:flex-row justify-center md:gap-8 gap-9 mb-20 mt-10 ">
           {/* ---start Card 1 ---- */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.5, duration: 0.5 }}
-            className=" scale-75 md:scale-100 w-[280px] h-[380px] border-solid box-border border-[1.5px] border-deepskyblue rounded-3xl flex flex-col justify-around items-center "
-          >
-            {/* --- upper section */}
-            <div className="flex flex-col mt-[-150px] justify-center items-center">
-              <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
-              <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
-              <div className=" bg-[#16294a]  w-[165px] h-[125px] rounded-3xl  ">
-                {" "}
-                <div className=" flex flex-col items-center justify-center bg-[#1a2c49DD] rounded-3xl w-[160px] h-[120px] uppercase text-[35px] font-bold   shadow-2xl ">
-                  <div className="">Phase</div>
-                  <div className="">1</div>
+          <div className=" scale-75 md:scale-100">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.5, duration: 0.5 }}
+              className=" scale-75 md:scale-100 w-[280px] h-[380px] border-solid box-border border-[1.5px] border-deepskyblue rounded-3xl flex flex-col justify-around items-center "
+            >
+              {/* --- upper section */}
+              <div className="flex flex-col mt-[-150px] justify-center items-center">
+                <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
+                <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
+                <div className=" bg-[#16294a]  w-[165px] h-[125px] rounded-3xl  ">
+                  {" "}
+                  <div className=" flex flex-col items-center justify-center bg-[#1a2c49DD] rounded-3xl w-[160px] h-[120px] uppercase text-[35px] font-bold   shadow-2xl ">
+                    <div className="">Phase</div>
+                    <div className="">1</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            {/* ---lower section ---- */}
-            <div className=" md:text-[20px] mt-[-40px] flex flex-col gap-2">
-              <div>1,000 HOLDERS</div>
-              <div>1,000 Telegram Members</div>
-              <div>100k Volume/24h</div>
-              <div>Coingecko Listing</div>
-              <div>CMC Listing</div>
-              <div>BuyBack with 50k usd</div>
-            </div>
-            <div className=" w-full h-1 bg-[#3aa0f4]"></div>
+              {/* ---lower section ---- */}
+              <div className=" md:text-[20px] mt-[-40px] flex flex-col gap-2">
+                <div>1,000 HOLDERS</div>
+                <div>1,000 Telegram Members</div>
+                <div>100k Volume/24h</div>
+                <div>Coingecko Listing</div>
+                <div>CMC Listing</div>
+                <div>BuyBack with 50k usd</div>
+              </div>
+              <div className=" w-full h-1 bg-[#3aa0f4]"></div>
 
-            {/* ----- */}
-            <div className="flex flex-col mb-[-130px] justify-center items-center">
-              <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
-              <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
-            </div>
-          </motion.div>
+              {/* ----- */}
+              <div className="flex flex-col mb-[-130px] justify-center items-center">
+                <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
+                <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
+              </div>
+            </motion.div>
+          </div>
+
           {/* --- End Card 1 ---- */}
           {/* ---start Card 2 ---- */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.7, duration: 0.5 }}
-            className=" scale-75 md:scale-95 w-[280px] h-[380px] border-solid box-border border-[1.5px] border-deepskyblue rounded-3xl flex flex-col justify-around items-center "
-          >
-            {/* --- upper section */}
-            <div className="flex flex-col mt-[-150px] justify-center items-center">
-              <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
-              <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
-              <div className=" bg-[#16294a]  w-[165px] h-[125px] rounded-3xl  ">
-                {" "}
-                <div className=" flex flex-col items-center justify-center bg-[#1a2c49DD] rounded-3xl w-[160px] h-[120px] uppercase text-[35px] font-bold   shadow-2xl ">
-                  <div className="">Phase</div>
-                  <div className="">2</div>
+          <div className=" scale-75 md:scale-95">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.7, duration: 0.5 }}
+              className=" scale-75 md:scale-95 w-[280px] h-[380px] border-solid box-border border-[1.5px] border-deepskyblue rounded-3xl flex flex-col justify-around items-center "
+            >
+              {/* --- upper section */}
+              <div className="flex flex-col mt-[-150px] justify-center items-center">
+                <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
+                <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
+                <div className=" bg-[#16294a]  w-[165px] h-[125px] rounded-3xl  ">
+                  {" "}
+                  <div className=" flex flex-col items-center justify-center bg-[#1a2c49DD] rounded-3xl w-[160px] h-[120px] uppercase text-[35px] font-bold   shadow-2xl ">
+                    <div className="">Phase</div>
+                    <div className="">2</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            {/* ---lower section ---- */}
-            <div className=" md:text-[20px] mt-[-40px] flex flex-col gap-2">
-              <div>2,000 HOLDERS</div>
-              <div>1,500 Telegram Members</div>
-              <div>1M liquidity</div>
-              <div>1M Volume/24h</div>
-              <div>BuyBack with 100k usd</div>
-              <div>CEX Listin</div>
-            </div>
-            <div className=" w-full h-1 bg-[#3aa0f4]"></div>
+              {/* ---lower section ---- */}
+              <div className=" md:text-[20px] mt-[-40px] flex flex-col gap-2">
+                <div>2,000 HOLDERS</div>
+                <div>1,500 Telegram Members</div>
+                <div>1M liquidity</div>
+                <div>1M Volume/24h</div>
+                <div>BuyBack with 100k usd</div>
+                <div>CEX Listin</div>
+              </div>
+              <div className=" w-full h-1 bg-[#3aa0f4]"></div>
 
-            {/* ----- */}
-            <div className="flex flex-col mb-[-130px] justify-center items-center">
-              <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
-              <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
-            </div>
-          </motion.div>
+              {/* ----- */}
+              <div className="flex flex-col mb-[-130px] justify-center items-center">
+                <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
+                <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
+              </div>
+            </motion.div>
+          </div>
+
           {/* --- End Card 2 ---- */}
           {/* ---start Card 3 ---- */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.9, duration: 0.5 }}
-            className=" scale-75 md:scale-100 w-[280px] h-[380px] border-solid box-border border-[1.5px] border-deepskyblue rounded-3xl flex flex-col justify-around items-center "
-          >
-            {/* --- upper section */}
-            <div className="flex flex-col mt-[-150px] justify-center items-center">
-              <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
-              <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
-              <div className=" bg-[#16294a]  w-[165px] h-[125px] rounded-3xl  ">
-                {" "}
-                <div className=" flex flex-col items-center justify-center bg-[#1a2c49DD] rounded-3xl w-[160px] h-[120px] uppercase text-[35px] font-bold   shadow-2xl ">
-                  <div className="">Phase</div>
-                  <div className="">3</div>
+          <div className=" scale-75 md:scale-100">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.9, duration: 0.5 }}
+              className=" scale-75 md:scale-100 w-[280px] h-[380px] border-solid box-border border-[1.5px] border-deepskyblue rounded-3xl flex flex-col justify-around items-center "
+            >
+              {/* --- upper section */}
+              <div className="flex flex-col mt-[-150px] justify-center items-center">
+                <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
+                <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
+                <div className=" bg-[#16294a]  w-[165px] h-[125px] rounded-3xl  ">
+                  {" "}
+                  <div className=" flex flex-col items-center justify-center bg-[#1a2c49DD] rounded-3xl w-[160px] h-[120px] uppercase text-[35px] font-bold   shadow-2xl ">
+                    <div className="">Phase</div>
+                    <div className="">3</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            {/* ---lower section ---- */}
-            <div className=" md:text-[20px] mt-[-40px] flex flex-col gap-2">
-              <div>5,000+ HOLDERS</div>
-              <div>2,000 Telegram Members</div>
-              <div>Partnership</div>
-              <div>1B Maketcap</div>
-              <div>Launch Elephant ERC404</div>
-              <div>Huge BuyBack</div>
-            </div>
-            <div className=" w-full h-1 bg-[#3aa0f4]"></div>
+              {/* ---lower section ---- */}
+              <div className=" md:text-[20px] mt-[-40px] flex flex-col gap-2">
+                <div>5,000+ HOLDERS</div>
+                <div>2,000 Telegram Members</div>
+                <div>Partnership</div>
+                <div>1B Maketcap</div>
+                <div>Launch Elephant ERC404</div>
+                <div>Huge BuyBack</div>
+              </div>
+              <div className=" w-full h-1 bg-[#3aa0f4]"></div>
 
-            {/* ----- */}
-            <div className="flex flex-col mb-[-130px] justify-center items-center">
-              <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
-              <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
-            </div>
-          </motion.div>
+              {/* ----- */}
+              <div className="flex flex-col mb-[-130px] justify-center items-center">
+                <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
+                <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
+              </div>
+            </motion.div>
+          </div>
+
           {/* --- End Card 3 ---- */}
           {/* ---start Card 4 ---- */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 1.1, duration: 0.5 }}
-            className=" scale-75 md:scale-95 w-[280px] h-[380px] border-solid box-border border-[1.5px] border-deepskyblue rounded-3xl flex flex-col justify-around items-center "
-          >
-            {/* --- upper section */}
-            <div className="flex flex-col mt-[-150px] justify-center items-center">
-              <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
-              <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
-              <div className=" bg-[#16294a]  w-[165px] h-[125px] rounded-3xl  ">
-                {" "}
-                <div className=" flex flex-col items-center justify-center bg-[#1a2c49DD] rounded-3xl w-[160px] h-[120px] uppercase text-[35px] font-bold   shadow-2xl ">
-                  <div className="">Phase</div>
-                  <div className="">4</div>
+          <div className=" scale-75 md:scale-95">
+            {" "}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 1.1, duration: 0.5 }}
+              className=" scale-75 md:scale-95 w-[280px] h-[380px] border-solid box-border border-[1.5px] border-deepskyblue rounded-3xl flex flex-col justify-around items-center "
+            >
+              {/* --- upper section */}
+              <div className="flex flex-col mt-[-150px] justify-center items-center">
+                <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
+                <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
+                <div className=" bg-[#16294a]  w-[165px] h-[125px] rounded-3xl  ">
+                  {" "}
+                  <div className=" flex flex-col items-center justify-center bg-[#1a2c49DD] rounded-3xl w-[160px] h-[120px] uppercase text-[35px] font-bold   shadow-2xl ">
+                    <div className="">Phase</div>
+                    <div className="">4</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            {/* ---lower section ---- */}
-            <div className=" md:text-[20px] mt-[-40px] flex flex-col gap-2 justify-center items-center">
-              <div className=" text-[35px] font-bold">To The Moon</div>
-              <div>
-                {" "}
-                <img
-                  className=" scale-12 mt-6"
-                  src="/assets/Erocket.svg"
-                  alt=""
-                />
+              {/* ---lower section ---- */}
+              <div className=" md:text-[20px] mt-[-40px] flex flex-col gap-2 justify-center items-center">
+                <div className=" text-[35px] font-bold">To The Moon</div>
+                <div>
+                  {" "}
+                  <img
+                    className=" scale-12 mt-6"
+                    src="/assets/Erocket.svg"
+                    alt=""
+                  />
+                </div>
               </div>
-            </div>
-            <div className=" w-full h-1 bg-[#3aa0f4]"></div>
+              <div className=" w-full h-1 bg-[#3aa0f4]"></div>
 
-            {/* ----- */}
-            <div className="flex flex-col mb-[-130px] justify-center items-center">
-              <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
-              <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
-            </div>
-          </motion.div>
+              {/* ----- */}
+              <div className="flex flex-col mb-[-130px] justify-center items-center">
+                <div className="bg-[#3aa0f4] w-1 h-4 mb-2"></div>
+                <div className=" bg-[#3aa0f4] w-5 h-5 rounded-full mb-2"></div>
+              </div>
+            </motion.div>
+          </div>
+
           {/* --- End Card 4 ---- */}
         </div>
       </div>
