@@ -130,10 +130,12 @@ const Index = () => {
           <div className="absolute w-full flex justify-end z-10">
             <motion.div
               initial={{ x: "100%" }}
-              animate={{ x: 0 }}
+              animate={isOpen ? { x: 0 } : { x: "100%" }}
               exit={{ x: "100%" }}
               transition={{ duration: 0.3 }}
-              className="md:hidden shadow-[0px_4px_25px_rgba(0,_0,_0,_0.8)] [backdrop-filter:blur(100px)] bg-[#0f2141] mt-[270px] rounded-md py-4 pl-5 pr-10"
+              className={`md:hidden shadow-[0px_4px_25px_rgba(0,_0,_0,_0.8)] [backdrop-filter:blur(100px)] bg-[#0f2141] mt-[270px] rounded-md py-4 pl-5 pr-10 ${
+                isOpen ? "" : "hidden"
+              }`}
             >
               <div className="flex flex-col gap-2 relative">
                 <motion.div
@@ -216,11 +218,13 @@ const Index = () => {
 
         <div className=" w-full h-full flex flex-col justify-center items-center mt-[-50px] md:mt-[-10px] ">
           <div className="grid place-items-center">
-            {" "}
-            <img
-              className="relative md:w-[90%]  xl:w-[90%] w-[80%] h-[100%] "
+            <motion.img
+              className="relative md:w-[90%] xl:w-[90%] w-[80%] h-[100%]"
               alt=""
               src="/assets/elephant-hero-img.svg"
+              initial={{ scale: 0, opacity: 0, y: "100%" }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}
             />
           </div>
           <div className="">
