@@ -127,40 +127,72 @@ const Index = () => {
           </button>
         </div>
         {isOpen && (
-          <div className="absolute w-full flex justify-end  z-10   ">
-            <div className="  md:hidden shadow-[0px_4px_25px_rgba(0,_0,_0,_0.8)] [backdrop-filter:blur(100px)] bg-[#0f2141] mt-[270px] rounded-md  py-4 pl-5  pr-10  transition-all duration-300 ">
-              <div className="flex flex-col gap-2   relative transition-all duration-300">
-                <div className="hover:[filter:drop-shadow(0px_-1px_10px_#6256fe)] hover:border-b-2  hover:border-solid hover:border-deepskyblue pb-1">
+          <div className="absolute w-full flex justify-end z-10">
+            <motion.div
+              initial={{ x: "100%" }}
+              animate={{ x: 0 }}
+              exit={{ x: "100%" }}
+              transition={{ duration: 0.3 }}
+              className="md:hidden shadow-[0px_4px_25px_rgba(0,_0,_0,_0.8)] [backdrop-filter:blur(100px)] bg-[#0f2141] mt-[270px] rounded-md py-4 pl-5 pr-10"
+            >
+              <div className="flex flex-col gap-2 relative">
+                <motion.div
+                  whileHover={{
+                    filter: "drop-shadow(0px_-1px_10px_#6256fe)",
+                    borderBottom: "2px solid deepskyblue",
+                  }}
+                  className="pb-1"
+                >
                   <a href="#" className="no-underline text-white ">
                     Home
                   </a>
-                </div>
-                <div className="hover:[filter:drop-shadow(0px_-1px_10px_#6256fe)] hover:border-b-2  hover:border-solid hover:border-deepskyblue pb-1">
-                  {" "}
+                </motion.div>
+                <motion.div
+                  whileHover={{
+                    filter: "drop-shadow(0px_-1px_10px_#6256fe)",
+                    borderBottom: "2px solid deepskyblue",
+                  }}
+                  className="pb-1"
+                >
                   <a href="#about" className="no-underline text-white">
                     About
                   </a>
-                </div>
-                <div className="hover:[filter:drop-shadow(0px_-1px_10px_#6256fe)] hover:border-b-2  hover:border-solid hover:border-deepskyblue pb-1">
-                  {" "}
+                </motion.div>
+                <motion.div
+                  whileHover={{
+                    filter: "drop-shadow(0px_-1px_10px_#6256fe)",
+                    borderBottom: "2px solid deepskyblue",
+                  }}
+                  className="pb-1"
+                >
                   <a href="#howtobuy" className="no-underline text-white">
                     How to buy
                   </a>
-                </div>
-                <div className="hover:[filter:drop-shadow(0px_-1px_10px_#6256fe)] hover:border-b-2  hover:border-solid hover:border-deepskyblue pb-1">
-                  {" "}
+                </motion.div>
+                <motion.div
+                  whileHover={{
+                    filter: "drop-shadow(0px_-1px_10px_#6256fe)",
+                    borderBottom: "2px solid deepskyblue",
+                  }}
+                  className="pb-1"
+                >
                   <a href="#tokenomics" className="no-underline text-white">
                     Tokenomics
                   </a>
-                </div>
-                <div className="hover:[filter:drop-shadow(0px_-1px_10px_#6256fe)] hover:border-b-2  hover:border-solid hover:border-deepskyblue pb-1">
-                  {" "}
+                </motion.div>
+                <motion.div
+                  whileHover={{
+                    filter: "drop-shadow(0px_-1px_10px_#6256fe)",
+                    borderBottom: "2px solid deepskyblue",
+                  }}
+                  className="pb-1"
+                >
                   <a href="#roadmap" className="no-underline text-white">
                     Roadmap
                   </a>
-                </div>
+                </motion.div>
               </div>
-            </div>
+            </motion.div>
           </div>
         )}
       </div>
